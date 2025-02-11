@@ -122,6 +122,13 @@ if (variabili.secondAge <= 50 || variabili.primoNome === 70) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let PariDispari = 10
+if (PariDispari % 2 === 0) {
+  console.log("pari")
+} else {
+  console.log("dispari")
+}
+
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
@@ -135,6 +142,14 @@ if (variabili.secondAge <= 50 || variabili.primoNome === 70) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let val = 7
+if (val < 5) {
+  console.log("Meno di 10")
+} else if (val < 5) {
+  console.log("Meno di 5")
+} else {
+  console.log("Uguale a 10 o maggiore")
+}
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
