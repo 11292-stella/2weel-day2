@@ -78,6 +78,16 @@ if (totalShoppingCart > contoDaSuperare) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let totaleAcquistiCarta = 45
+const scontoPercentuale = 20
+const contoTotDaSuperare = 50
+console.log(totaleAcquistiCarta % scontoPercentuale)
+let scontoapplicato = totaleAcquistiCarta % scontoPercentuale
+if (scontoapplicato > contoTotDaSuperare) {
+  console.log("spedizione gratuita")
+} else {
+  console.log(scontoapplicato, "spedizione con aggiunta")
+}
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -86,6 +96,19 @@ if (totalShoppingCart > contoDaSuperare) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const variabili = {
+  primoNome: 20,
+  secondAge: 30,
+  terzoColor: 40,
+}
+
+if (variabili.secondAge <= 50 || variabili.primoNome === 70) {
+  console.log(100)
+} else {
+  console.log(200)
+}
+
+//risultato 100
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
