@@ -64,12 +64,12 @@ if (primo + primo + primo + primo) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let totalShoppingCart = 45
-const sconto = 10
+const conto = 10
 const contoDaSuperare = 50
 if (totalShoppingCart > contoDaSuperare) {
   console.log("spedizione gratuita")
 } else {
-  console.log(totalShoppingCart + sconto, "spedizione con aggiunta")
+  console.log(totalShoppingCart + conto, "spedizione con aggiunta")
 }
 
 /* ESERCIZIO 6
@@ -81,8 +81,8 @@ if (totalShoppingCart > contoDaSuperare) {
 let totaleAcquistiCarta = 45
 const scontoPercentuale = 20
 const contoTotDaSuperare = 50
-console.log(totaleAcquistiCarta % scontoPercentuale)
-let scontoapplicato = totaleAcquistiCarta % scontoPercentuale
+console.log(totaleAcquistiCarta * scontoPercentuale)
+let scontoapplicato = totaleAcquistiCarta - scontoPercentuale
 if (scontoapplicato > contoTotDaSuperare) {
   console.log("spedizione gratuita")
 } else {
