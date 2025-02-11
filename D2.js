@@ -115,6 +115,14 @@ if (variabili.secondAge <= 50 || variabili.primoNome === 70) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let xx = 10
+let yy = "ciao"
+
+typeof xx
+
+if (typeof xx === "number") {
+  console.log("xx è numero")
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -163,17 +171,19 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+me.city = "torono"
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+delete me.lastName
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+me.skills.pop
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
@@ -181,8 +191,11 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const array = []
+array.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+array[9] = 100
